@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vegetable Shop</title>
+    <style>
+        .vegetable-img {
+            width: 150px;
+            margin: 10px;
+        }
+    </style>
+    <script>
+        function changeImage(image, newSrc) {
+            image.src = newSrc;
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Welcome to the Vegetable Shop!</h1>
+    <p>Click on any vegetable to see a different one.</p>
+
+    <div>
+        <img src="carrot1.jpg" alt="Carrot" class="vegetable-img" onclick="changeImage(this, 'carrot2.jpg');">
+        <img src="tomato1.jpg" alt="Tomato" class="vegetable-img" onclick="changeImage(this, 'tomato2.jpg');">
+        <img src="cucumber1.jpg" alt="Cucumber" class="vegetable-img" onclick="changeImage(this, 'cucumber2.jpg');">
+        <img src="potato1.jpg" alt="Potato" class="vegetable-img" onclick="changeImage(this, 'potato2.jpg');">
+        <img src="onion1.jpg" alt="Onion" class="vegetable-img" onclick="changeImage(this, 'onion2.jpg');">
+        <img src="lettuce1.jpg" alt="Lettuce" class="vegetable-img" onclick="changeImage(this, 'lettuce2.jpg');">
+    </div>
+
+</body>
+</html>

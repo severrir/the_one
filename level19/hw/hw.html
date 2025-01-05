@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is a simple website demonstrating HTML elements.</p>
+            <p><b>We</b> offer a variety of services.</p>
+            <p><i>Our team</i> is highly skilled.</p>
+            <p><u>Visit</u> our portfolio to see our work.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <hr>
+            <h3><mark>Web Design</mark></h3>
+            <ul>
+                <li>Responsive design</li>
+                <li>User-centered design</li>
+                <li>Accessibility</li>
+            </ul>
+            <h3><mark>Web Development</mark></h3>
+            <ol>
+                <li>Frontend development</li>
+                <li>Backend development</li>
+                <li>Database integration</li>
+            </ol>
+            <h3><mark>SEO</mark></h3>
+            <ul>
+                <li>Keyword research</li>
+                <li>On-page optimization</li>
+                <li>Off-page optimization</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Our Portfolio</h2>
+            <hr>
+            <div>
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+            </div>
+            <div>
+                <img src="image3.jpg" alt="Image 3">
+                <img src="image4.jpg" alt="Image 4">
+            </div>
+            <p>More images coming soon!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <hr>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+        <a href="#top">Return to Top</a>
+    </footer>
+
+</body>
+</html>
