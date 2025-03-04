@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        .container {
+            display: flex; /* კონტეინერი ხდება Flexbox-ი */
+            justify-content: center; /* ცენტრში განლაგება ჰორიზონტალურად */
+            align-items: center; /* ცენტრში განლაგება ვერტიკალურად */
+            flex-direction: column; /* ელემენტები განლაგდება ვერტიკალურად */
+            height: 100vh; /* მშობელ კონტეინერს მიენიჭება ეკრანის მთლიანი სიმაღლე */
+            background-color: #3498db; /* ფონზე ცისფერი ფერი */
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: white; /* თეთრი ფონით */
+            margin: 10px;
+            text-align: center;
+            line-height: 100px; /* ტექსტის ცენტრი */
+            color: #333;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>

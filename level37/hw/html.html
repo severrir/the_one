@@ -1,0 +1,17 @@
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li:nth-child(even) {
+    background-color: #f0f0f0; /* Style every even list item with a different background color */
+}
+
+ul li:nth-child(3n) {
+    color: #ff4500; /* Change the text color of every third list item */
+}
+
+ul li::before {
+    content: "🔥 "; /* Add a custom icon or emoji before each item */
+    margin-right: 5px;
+}
